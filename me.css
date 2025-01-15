@@ -221,6 +221,9 @@ span {
     .home {
         gap: 4rem;
     }
+    .logo {
+        position: fixed;
+    }
 }
 @media (max-width: 995px) {
     .home {
@@ -228,13 +231,13 @@ span {
         margin: 5rem 4rem;
     }
     .home .home-content h3 {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
     .home-content h1 {
         font-size: 5rem;
     }
     .home-img img {
-        width: 70vh;
+        width: 30vh;
         margin-top: 4rem;
     }
 }
